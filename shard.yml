@@ -1,0 +1,21 @@
+name: api
+version: 0.1.0
+
+authors:
+  - Antônio Ribeiro <antoniorib91@gmail.com>
+
+targets:
+  api:
+    main: src/api.cr
+  
+dependencies:
+  amber:
+    github: amberframework/amber
+  granite:
+    github: amberframework/granite
+  pg:
+    github: will/crystal-pg
+    
+crystal: 0.36.1
+
+license: MIT
